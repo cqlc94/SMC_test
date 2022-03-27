@@ -212,7 +212,7 @@ class SMC(object):
        ----------
        fk: FeynmanKac object
            Feynman-Kac model which defines which distributions are
-           approximated
+           approximated x
        N: int, optional (default=100)
            number of particles
        qmc: bool, optional (default=False)
