@@ -287,7 +287,7 @@ class SMC(object):
         self.t = 0
         self.rs_flag = False  # no resampling at time 0, by construction
         self.logLt = 0.
-        self.wgts = rs.Weights()
+        self.wgts = rs.Weights() # init wgts
         self.aux = None
         self.X, self.Xp, self.A = None, None, None
 
